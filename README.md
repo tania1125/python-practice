@@ -16,6 +16,4 @@ This repository contains my Python Basics and DSA Strengthening journey through 
 
 Become proficient in Python for:
 - Backend Development
-- FastAPI
-- AI Engineering
 - Technical Interviews
