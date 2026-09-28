@@ -1,6 +1,6 @@
 # Python Practice Repository
 
-This repository contains my Python Basics and DSA Strengthening journey through Leetcode exercises
+This repository contains my Python Core and DSA Strengthening journey through Leetcode exercises
 
 ## Topics Covered
 
