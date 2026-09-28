@@ -15,5 +15,4 @@ This repository contains my Python Core and DSA Strengthening journey through Le
 ## Goal
 
 Become proficient in Python for:
-- Backend Development
 - Technical Interviews
