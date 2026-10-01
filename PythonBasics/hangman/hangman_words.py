@@ -1,0 +1,13 @@
+word_list = ["action", "advice", "airport", "animal", "apple", "ball", "balloon", "beach",
+    "bird", "boat", "book", "bridge", "cake", "captain", "car", "cat",
+    "chair", "clock", "coat", "cow", "cup", "dance", "desert", "diamond",
+    "dog", "dolphin", "door", "duck", "eagle", "eclipse", "egg", "face",
+    "feather", "forest", "game", "garden", "girl", "hand", "harbor", "hat",
+    "house", "journey", "juice", "jungle", "king", "kitchen", "lantern", "leaf",
+    "lemon", "library", "lion", "meadow", "milk", "monster", "nectar", "nest",
+    "night", "notebook", "ocean", "package", "pen", "picture", "pig", "planet",
+    "pumpkin", "queen", "rainbow", "ring", "river", "rocket", "shadow", "ship",
+    "shoe", "snake", "soldier", "spider", "squirrel", "star", "station", "sun",
+    "tornado", "traffic", "train", "treasure", "turtle", "velvet", "village", "volcano",
+    "wagon", "whisper", "wind", "window", "winter", "wizard", "worker", "writer",
+    "xylophone", "yard", "yellow", "zebra"]
