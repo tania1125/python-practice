@@ -1,0 +1,89 @@
+======================================================================
+               PYTHON COMMON ERRORS QUICK REFERENCE NOTE
+======================================================================
+
+1. IndentationError
+----------------------------------------------------------------------
+What it means: Your code formatting blocks (spaces or tabs) are misaligned.
+Common Cause: Mixing tabs and spaces, or forgetting to indent the lines 
+              directly underneath an 'if', 'for', 'def', or 'else' block.
+How to fix: Make sure all lines inside the same block align perfectly. 
+            Standard Python practice uses 4 spaces per indentation level.
+
+
+2. SyntaxError
+----------------------------------------------------------------------
+What it means: You wrote code that violates Python's structural grammar rules.
+Common Cause: Missing a colon (:) at the end of an 'if' statement or function, 
+              forgetting to close a bracket () or [], or leaving a quote unclosed.
+How to fix: Look right before the arrow (^) pointer in the error trace and 
+            check for missing punctuation, brackets, or misspelled keywords.
+
+
+3. ValueError
+----------------------------------------------------------------------
+What it means: A function got an argument that is the right data type, but 
+               the specific value itself is invalid or cannot be processed.
+Common Cause: Passing text into int() like int("hello"), or looking for an 
+              item in a list that doesn't exist using list.index("missing_item").
+How to fix: Check the input data you are passing into the function to ensure 
+            it contains expected, valid values.
+
+
+4. TypeError
+----------------------------------------------------------------------
+What it means: You tried to perform an operation on data types that do not mix.
+Common Cause: Trying to add a string and an integer together (e.g., "5" + 5), 
+              or trying to calculate the length len() of an integer.
+How to fix: Use type casting functions like str() or int() to explicitly 
+            convert your data types before processing them.
+
+
+5. IndexError
+----------------------------------------------------------------------
+What it means: You are trying to access a slot in a list or sequence using 
+               an index number that does not exist.
+Common Cause: Using a number higher than the list length, like trying to get 
+              my_list[5] from a list that only contains 3 items.
+How to fix: Remember that Python starts counting positions at index 0. Check your 
+            index math or use len(my_list) to see how large the collection is.
+
+----------------------------------------------------------------------
+
+6. UnboundLocalError: cannot access local variable '...' where it is not associated with a value
+
+What it means: You are trying to use, modify, or print a variable inside a function 
+                before you have actually created it or given it a starting value.
+
+Most Common Causes:
+1. A Typo: You spelled the variable one way at the top (e.g., encrypted_value = "") 
+   but misspelled it when trying to use it later (e.g., encrpted_value += ...).
+2. Missing Variable: You forgot to define the variable inside the function 
+   before trying to modify it.
+
+How to fix it: Check the spelling of the variable name highlighted by the error arrows (^^^^) 
+and make sure it matches your initial definition exactly.
+
+----------------------------------------------------------------------
+7. KeyError
+
+What it means:
+You tried to look up a key in a dictionary that does not exist.
+
+Common Cause:
+1. A Typo: You misspelled the key name (e.g., dict["nme"] instead of "name").
+2. Key doesn't exist: The key was never added to the dictionary.
+
+How to fix it:
+* Check your spelling against the dictionary structure.
+* Use the .get() method instead: dict.get("key", "default_value") 
+  (This returns a default value instead of crashing your code).
+
+----------------------------------------------------------------------
+
+fstring
+num = 1
+floating = 23.5
+print(f"Your fav number is {num} and you fav decimal number is {floating}")
+
+

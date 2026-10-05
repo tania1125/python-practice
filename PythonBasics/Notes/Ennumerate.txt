@@ -1,0 +1,30 @@
+Python enumerate()
+=====================
+The enumerate() function in Python is used to iterate over an iterable while keeping track of both the index and the value.
+
+Syntax
+------
+enumerate(iterable, start=0)
+
+Example
+-------
+fruits = ['apple', 'banana', 'cherry']
+
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+# Output:
+# 0 apple
+# 1 banana
+# 2 cherry
+
+Custom Start Index
+------------------
+for index, fruit in enumerate(fruits, start=1):
+    print(index, fruit)
+
+# Output:
+# 1 apple
+# 2 banana
+# 3 cherry
+

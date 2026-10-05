@@ -1,0 +1,23 @@
+
+Python count() Method 
+=====================
+
+The count() method returns the number of times a specified value appears in a sequence.
+
+1. LISTS & TUPLES
+Syntax: sequence.count(element)
+Example:
+    numbers = [1, 2, 2, 3, 2]
+    print(numbers.count(2))  # Output: 3
+
+2. STRINGS (Case-sensitive, non-overlapping)
+Syntax: string.count(substring, start, end)
+Example:
+    text = "Banana"
+    print(text.count("a"))      # Output: 3
+    print(text.count("a", 1, 4)) # Output: 2 (searches "ana")
+
+KEY FACTS:
+- Returns 0 if the element is not found.
+- Operates in O(n) linear time.
+- Use 'collections.Counter' if you need to count all elements efficiently.
