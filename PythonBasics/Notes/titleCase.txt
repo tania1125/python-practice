@@ -1,0 +1,33 @@
+# Title Case in Python
+
+## 1. What it Does
+The `.title()` method converts the first character of each word to uppercase and all remaining characters to lowercase.
+
+```python
+txt = "Welcome to my world"
+print(txt.title()) 
+# Output: Welcome To My World
+```
+
+## 2. The Limitation
+It treats ANY non-alphabetic character (like apostrophes) as a word boundary, causing letters after punctuation to capitalize incorrectly.
+
+```python
+s = "They're john's relatives."
+print(s.title()) 
+# Output: They'Re John'S Relatives. (Incorrect 'Re' and 'S')
+```
+
+## 3. The Fix (Using Regex)
+To handle apostrophes properly, use the `re` module to target true words and use `.capitalize()` on them:
+
+```python
+import re
+
+def clean_titlecase(text):
+    return re.sub(r"[A-Za-z]+('[A-Za-z]+)?", lambda m: m.group(0).capitalize(), text)
+
+s = "They're john's relatives."
+print(clean_titlecase(s)) 
+# Output: They're John's Relatives.
+```

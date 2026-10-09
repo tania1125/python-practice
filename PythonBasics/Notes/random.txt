@@ -1,0 +1,52 @@
+# Python Random Module Cheat Sheet
+
+## 1. Sequences (Lists, Tuples, Strings)
+* `random.choice(seq)`      : Pick 1 random item
+* `random.sample(seq, k)`   : Pick k UNIQUE items (returns a list)
+* `random.choices(seq, k=n)`: Pick n items (DUPLICATES allowed)
+* `random.shuffle(list)`    : Mix list items in-place (Lists only)
+
+```python
+import random
+
+# Works on Lists/Tuples/Strings
+items = ["A", "B", "C", "D"]
+text = "PYTHON"
+
+print(random.choice(text))        # 'Y'
+print(random.sample(items, 2))    # ['D', 'A'] (Unique)
+print(random.choices(items, k=2))  # ['B', 'B'] (Can repeat)
+
+# Shuffle (Modifies original list)
+random.shuffle(items) 
+```
+
+## 2. Numbers (Integers & Floats)
+* `random.randint(a, b)`   : Random integer between a and b (INCLUSIVE)
+* `random.randrange(a, b)` : Random integer between a and b (EXCLUSIVE of b)
+* `random.random()`        : Random float between 0.0 and 1.0
+* `random.uniform(a, b)`   : Random float between a and b
+
+```python
+print(random.randint(1, 10))   # 1 to 10
+print(random.randrange(1, 10)) # 1 to 9
+print(random.random())         # 0.4728...
+print(random.uniform(1.5, 5.5))# 3.8419...
+```
+
+## 3. Dictionaries & Sets (Unordered Types)
+*Dictionaries and Sets cannot be passed directly into random functions. Convert them first:*
+
+```python
+my_dict = {"a": 1, "b": 2, "c": 3}
+my_set = {10, 20, 30}
+
+# Pick random key
+rand_key = random.choice(list(my_dict.keys()))
+
+# Pick random value
+rand_val = random.choice(list(my_dict.values()))
+
+# Pick random set item
+rand_set = random.choice(list(my_set))
+```
