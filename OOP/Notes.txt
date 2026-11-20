@@ -1,0 +1,20 @@
+PascalCase -> Classes
+snake_case -> all other things
+
+
+#IMPORTS
+import turtle
+from turtle import Turtle 
+        ^             ^
+        l             l  
+        Module        Thing from Module
+
+from turtle import * (To import all the features -> but negative is that we won't know from which these function came from -> not good practice)
+
+import turtle as t (Alias name import -> This way easily we can import incases of long name or to understand use case)
+
+
+
+some doesn't come along with common python library -> so we will need to install the package to import such module or packages
+
+while installing some modules gets installled to the local virtual environment instead of the common python. 
