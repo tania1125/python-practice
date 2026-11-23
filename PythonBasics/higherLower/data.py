@@ -6,6 +6,10 @@ famous_people_db = [
     {"name": "Neymar Jr.", "profession": "Football Player", "country": "Brazil", "followers": 234000000},
     {"name": "LeBron James", "profession": "Basketball Player", "country": "United States", "followers": 159000000},
     {"name": "Kylian Mbappé", "profession": "Football Player", "country": "France", "followers": 120000000},
+    {"name": "Sachin Tendulkar", "profession": "Cricketer", "country": "India", "followers": 51700000},
+    {"name": "MS Dhoni", "profession": "Cricketer", "country": "India", "followers": 49800000},
+    {"name": "Sanju Samson", "profession": "Cricketer (Malayalam)", "country": "India", "followers": 17500000},
+    {"name": "Ravichandran Ashwin", "profession": "Cricketer (Tamil)", "country": "India", "followers": 5500000},
 
     # --- MUSICIANS & POP STARS ---
     {"name": "Selena Gomez", "profession": "Singer & Actress", "country": "United States", "followers": 644000000},
@@ -16,23 +20,69 @@ famous_people_db = [
     {"name": "Rihanna", "profession": "Singer & Businesswoman", "country": "Barbados", "followers": 150000000},
     {"name": "Shakira", "profession": "Singer", "country": "Colombia", "followers": 125000000},
     {"name": "Billie Eilish", "profession": "Singer", "country": "United States", "followers": 124000000},
+    {"name": "Blackpink (Lisa)", "profession": "K-Pop Star", "country": "Thailand", "followers": 105000000},
     {"name": "Blackpink (Jennie)", "profession": "K-Pop Star", "country": "South Korea", "followers": 89000000},
+    {"name": "Neha Kakkar", "profession": "Singer", "country": "India", "followers": 75800000},
+    {"name": "Anirudh Ravichander", "profession": "Music Composer & Singer (Tamil)", "country": "India", "followers": 11500000},
+    {"name": "A.R. Rahman", "profession": "Music Composer & Singer (Tamil)", "country": "India", "followers": 9200000},
+    {"name": "Shreya Ghoshal", "profession": "Playback Singer", "country": "India", "followers": 32500000},
+    {"name": "K.S. Chithra", "profession": "Playback Singer (Malayalam / Tamil)", "country": "India", "followers": 2400000},
 
-    # --- ACTORS & ENTERTAINERS ---
+    # --- ACTORS & ENTERTAINERS (GLOBAL & BOLLYWOOD) ---
     {"name": "Dwayne 'The Rock' Johnson", "profession": "Actor & Wrestler", "country": "United States", "followers": 393000000},
     {"name": "Kylie Jenner", "profession": "Media Personality & Mogul", "country": "United States", "followers": 393000000},
     {"name": "Kim Kardashian", "profession": "Media Personality", "country": "United States", "followers": 356000000},
     {"name": "Jennifer Lopez", "profession": "Actress & Singer", "country": "United States", "followers": 246000000},
     {"name": "Zendaya", "profession": "Actress", "country": "United States", "followers": 178000000},
     {"name": "Kevin Hart", "profession": "Comedian & Actor", "country": "United States", "followers": 176000000},
+    {"name": "Priyanka Chopra", "profession": "Actress & Producer", "country": "India", "followers": 92700000},
+    {"name": "Shraddha Kapoor", "profession": "Actress", "country": "India", "followers": 92600000},
     {"name": "Alia Bhatt", "profession": "Actress", "country": "India", "followers": 85000000},
+    {"name": "Deepika Padukone", "profession": "Actress", "country": "India", "followers": 77900000},
+    {"name": "Salman Khan", "profession": "Actor", "country": "India", "followers": 72800000},
+    {"name": "Shah Rukh Khan", "profession": "Actor", "country": "India", "followers": 48400000},
+
+    # --- TAMIL ACTORS & ENTERTAINERS ---
+    {"name": "Samantha Ruth Prabhu", "profession": "Actress (Tamil / Telugu)", "country": "India", "followers": 37000000},
+    {"name": "Thalapathy Vijay", "profession": "Actor & Politician (Tamil)", "country": "India", "followers": 14500000},
+    {"name": "Silambarasan TR", "profession": "Actor & Singer (Tamil)", "country": "India", "followers": 14400000},
+    {"name": "Suriya", "profession": "Actor & Producer (Tamil)", "country": "India", "followers": 11000000},
+    {"name": "Sai Pallavi", "profession": "Actress (Tamil / Malayalam)", "country": "India", "followers": 11600000},
+    {"name": "Nayanthara", "profession": "Actress (Tamil / Malayalam)", "country": "India", "followers": 9800000},
+    {"name": "Dhanush", "profession": "Actor & Director (Tamil)", "country": "India", "followers": 8300000},
+    {"name": "Sivakarthikeyan", "profession": "Actor & Producer (Tamil)", "country": "India", "followers": 8100000},
+    {"name": "Kamal Haasan", "profession": "Actor & Politician (Tamil)", "country": "India", "followers": 3900000},
+    {"name": "Rajinikanth", "profession": "Actor (Tamil)", "country": "India", "followers": 1500000},
+
+    # --- MALAYALAM ACTORS & ENTERTAINERS ---
+    {"name": "Keerthy Suresh", "profession": "Actress (Malayalam / Tamil)", "country": "India", "followers": 18800000},
+    {"name": "Anupama Parameswaran", "profession": "Actress (Malayalam / Telugu)", "country": "India", "followers": 16600000},
+    {"name": "Dulquer Salmaan", "profession": "Actor & Producer (Malayalam)", "country": "India", "followers": 15900000},
+    {"name": "Tovino Thomas", "profession": "Actor (Malayalam)", "country": "India", "followers": 8500000},
+    {"name": "Mohanlal", "profession": "Actor & Director (Malayalam)", "country": "India", "followers": 6300000},
+    {"name": "Prithviraj Sukumaran", "profession": "Actor & Director (Malayalam)", "country": "India", "followers": 6100000},
+    {"name": "Mammootty", "profession": "Actor (Malayalam)", "country": "India", "followers": 4200000},
+    {"name": "Nivin Pauly", "profession": "Actor (Malayalam)", "country": "India", "followers": 3100000},
 
     # --- DIGITAL CREATORS / INTERNET CELEBRITIES ---
     {"name": "MrBeast", "profession": "YouTuber", "country": "United States", "followers": 774000000},
     {"name": "Khaby Lame", "profession": "TikTok Creator", "country": "Italy / Senegal", "followers": 162000000},
     {"name": "Charli D'Amelio", "profession": "Dancer & Creator", "country": "United States", "followers": 157000000},
+    {"name": "Jannat Zubair", "profession": "Actress & Creator", "country": "India", "followers": 51700000},
+    {"name": "Bhuvan Bam", "profession": "YouTuber & Comedian", "country": "India", "followers": 20500000},
+    {"name": "CarryMinati", "profession": "YouTuber & Streamer", "country": "India", "followers": 21500000},
+    {"name": "Hashir H", "profession": "Digital Creator (Malayalam)", "country": "India", "followers": 4700000},
+    {"name": "Pearle Maaney", "profession": "TV Host & YouTuber (Malayalam)", "country": "India", "followers": 4400000},
+    {"name": "Madan Gowri", "profession": "YouTuber & Podcaster (Tamil)", "country": "India", "followers": 2500000},
+    {"name": "Irfan's View", "profession": "Food Vlogger & Creator (Tamil)", "country": "India", "followers": 2100000},
 
     # --- WORLD LEADERS & BILLIONAIRES ---
     {"name": "Elon Musk", "profession": "Billionaire & Tech Entrepreneur", "country": "United States / South Africa", "followers": 240000000},
-    {"name": "Narendra Modi", "profession": "Prime Minister", "country": "India", "followers": 106000000}
+    {"name": "Narendra Modi", "profession": "Prime Minister", "country": "India", "followers": 106000000},
+    {"name": "Barack Obama", "profession": "Former President", "country": "United States", "followers": 36500000},
+    {"name": "Bill Gates", "profession": "Billionaire & Philanthropist", "country": "United States", "followers": 11500000},
+    {"name": "Sundar Pichai", "profession": "Tech CEO (Tamil)", "country": "United States / India", "followers": 3800000},
+    {"name": "M.K. Stalin", "profession": "Chief Minister of Tamil Nadu", "country": "India", "followers": 1800000},
+    {"name": "Pinarayi Vijayan", "profession": "Chief Minister of Kerala", "country": "India", "followers": 1300000},
+    {"name": "Shashi Tharoor", "profession": "Politician & Author (Malayalam)", "country": "India", "followers": 1200000}
 ]
